@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/6834b5a799.js" crossorigin="anonymous" defer ></script>
+    <script src="JS/scripts.js"></script>
+    <title>Webtilgængelighed</title>
+</head>
+<body class="crap-page">
+    <header class="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="PCTopNavigation">
+            <a href="index.html">Forside</a>
+            <a href="#" onclick="showWorldGoals()">Webtilgængelighed</a>
+            <a href="virsul.html">Visuel Style</a>
+        </nav>
+        <div id="WebTools">
+            <a href="CRAP.html" class="active">CRAP</a>
+            <a href="Gestalt.html">Gestalt</a>
+            <a href="Pour.html">Pour</a>
+            <a href="RWD.html">RWD</a>
+        </div>
+        <button id="theme-toggle"><i class="fa-solid fa-sun" style="color: #ffffff;"></i></button>
+        <div class="burger-menu">&#9776;</div>
+    </header>
+    <div>
+        <div class="billed-container">
+            <img src="img/crapBG.jpg" alt="Et billede af en crappe som hygger sig på nogle mursten" class="baggrunds-billede">
+            <img src="img/crap.png" alt="Text: CRAP" class="forgrunds-billede">
+        </div>        
+    </div>
+    <div class="content-container"> <!-- Hvad er CRAP? -->
+          <div class="text-container">
+            <h2>Hvad er CRAP?</h2>
+            <div>
+                <button class="button" onclick="decreaseFontSize()">-</button>
+                <button class="button" onclick="increaseFontSize()">+</button>
+                <button class="button read-aloud" data-id="text-to-read-1" id="toggle-button-1">Læs op</button>
+                <p class="brødtekst" id="text-to-read-1">CRAP er en betegnelse for principperne Kontrast, Gentagelse, Justering og Nærhed, som er en del af principperne for grafisk design og layout. Disse principper hjælper designere med at skabe visuelt tiltalende og let forståelige layouts. Nedenunder her kan du læse kort om hvert princip.</p>
+                <p>Billederne på denne side er fra <b>"Unsplash.com"</b> og siden vwo.com <b>"https://vwo.com/blog/crap-design-principles/"</b></p>
+            </div>
+          </div>
+    </div>
+    <div class="content-container"> <!-- Kontrast -->
+        <div class="text-container">
+          <h2>Kontrast (Contrast)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-2" id="toggle-button-2">Læs op</button>
+              <p class="brødtekst" id="text-to-read-2">Kontrasten handler om at skabe forskel i designelementer for at gøre visse dele mere fremtrædende. Det kan indebære at bruge stærke farveforskelle, forskellige skriftstørrelser eller forskellige former. Formålet er at hjælpe med at organisere information, guide seerens øjne gennem designet og fremhæve de vigtigste punkter.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/contrast.jpg" alt="et billede der viser farve stor farveforskel altså kontrast">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Gentagelse -->
+        <div class="text-container">
+          <h2>Gentagelse (Repetition)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-2" id="toggle-button-2">Læs op</button>
+              <p class="brødtekst" id="text-to-read-2">Repetition i webdesign betyder at gentage designelementer som farver, skrifttyper eller layout på et website. Dette skaber konsistens og gør sitet genkendeligt, hvilket hjælper brugeren med at navigere og forstå interaktioner bedre.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/Repetition.jpg" alt="et billede der viser Gentagelse af nogle lys i loftet som går ind og ind">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Justering -->
+        <div class="text-container">
+          <h2>Justering (Alignment)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-3" id="toggle-button-3">Læs op</button>
+              <p class="brødtekst" id="text-to-read-3">Justering handler om oprettelsen af en visuel forbindelse mellem elementer. Ved at justere elementer langs fælles linjer eller akser skabes en ren og organiseret følelse, som giver designet en stærkere strukturel sammenhæng.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/alignment.jpg" alt="et billede der viser alignment af nogle figur">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Nærhed -->
+        <div class="text-container">
+          <h2>Nærhed (Proximity)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-4" id="toggle-button-4">Læs op</button>
+              <p class="brødtekst" id="text-to-read-4">Nærhed anvendes til at gruppere relaterede designelementer sammen. Elementer, der har relation til hinanden, placeres tættere på hinanden for at skabe en visuel enhed. Dette hjælper med at organisere information og gør det nemmere for brugeren at forstå sammenhænge mellem forskellige dele af indholdet.</p>
+          </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <p>Lavet af Jonas Schøn Henriksen</p>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Gå til side</h3>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="CRAP.html">CRAP</a></li>
+                    <li><a href="Gestalt.html">Gestalt</a></li>
+                    <li><a href="Pour.html">Pour</a></li>
+                    <li><a href="RWD.html">RWD</a></li>
+                    <li><a href="virsul.html">Visuel Style</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Kontakt</h3>
+                <ul>    <!-- kontaktinformationer -->
+                    <li><a href="tel:21328035">Telefon</a>
+                    <li><a href="mailto:jonasschonhenriksen@icloud.com">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

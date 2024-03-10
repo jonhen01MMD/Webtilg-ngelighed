@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/6834b5a799.js" crossorigin="anonymous" defer ></script>
+    <script src="JS/scripts.js"></script>
+    <title>Webtilgængelighed</title>
+</head>
+<body class="rwd-page">
+    <header class="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="PCTopNavigation">
+            <a href="index.html">Forside</a>
+            <a href="#" onclick="showWorldGoals()">Webtilgængelighed</a>
+            <a href="virsul.html">Visuel Style</a>
+        </nav>
+        <div id="WebTools">
+            <a href="CRAP.html">CRAP</a>
+            <a href="Gestalt.html">Gestalt</a>
+            <a href="Pour.html">Pour</a>
+            <a href="RWD.html" class="active">RWD</a>
+        </div>
+        <button id="theme-toggle"><i class="fa-solid fa-sun" style="color: #ffffff;"></i></button>
+        <div class="burger-menu">&#9776;</div>
+    </header>
+    <div>
+        <div class="billed-container">
+            <img src="img/RWD.jpg" alt="Baggrundsbillede" class="baggrunds-billede">
+            <img src="img/RWD.png" alt="Text: Responsive Web Design" class="forgrunds-billede">
+        </div>        
+    </div>
+    <div class="content-container"> <!-- Hvad er RWD? -->
+          <div class="text-container">
+            <h2>Hvad er RWD?</h2>
+            <div>
+                <button class="button" onclick="decreaseFontSize()">-</button>
+                <button class="button" onclick="increaseFontSize()">+</button>
+                <button class="button read-aloud" data-id="text-to-read-1" id="toggle-button-1">Læs op</button>
+                <p class="brødtekst" id="text-to-read-1">Responsive Web Design (RWD) er en tilgang til webdesign, der sikrer, at websteder leverer en optimal visningsoplevelse på tværs af en bred vifte af enheder, herunder desktop computere, tablets og mobiltelefoner. Det primære mål med RWD er at opbygge websteder, der er i stand til dynamisk at tilpasse sig forskellige skærmstørrelser og opløsninger uden at forringe brugeroplevelsen. Her er nogle nøglepunkter i forbindelse med Responsive Web Design.</p>
+            </div>
+          </div>
+    </div>
+    <div class="content-container"> <!-- Media Queries? -->
+        <div class="text-container">
+          <h2>Media Queries</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-2" id="toggle-button-2">Læs op</button>
+              <p class="brødtekst" id="text-to-read-2">Media queries er et afgørende værktøj i RWD. De tillader designere at anvende forskellige stilarter baseret på karakteristika som skærmens bredde, højde, opløsning og orientering (portrait eller landscape). Ved at anvende media queries kan et websted præsentere et tilpasset layout, der passer til brugerens enhed.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/RWD.jpg" alt="Et billede der viser forskellige enheder en telefon Bærbar og en store skærm">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Fleksible Billeder? -->
+        <div class="text-container">
+          <h2>Fleksible Billeder</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-3" id="toggle-button-3">Læs op</button>
+              <p class="brødtekst" id="text-to-read-3">I et responsivt design skalerer billeder og andre medieelementer også i størrelse for at tilpasse sig forskellige enheder. Dette opnås ofte ved hjælp af CSS-funktioner som max-width, der sættes til 100%, så billederne aldrig er større end deres container-elementer.</p>
+          </div>
+        </div>
+    </div>
+    <div class="content-container"> <!-- Kilder -->
+        <div class="text-container">
+          <h2>Samlet set</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-4" id="toggle-button-4">Læs op</button>
+              <p class="brødtekst" id="text-to-read-4">Responsive Web Design er i dag en standardpraksis, fordi den spiller en afgørende rolle i at levere en konsistent brugeroplevelse uanset enhedens type eller størrelse. For at implementere RWD effektivt, kræver det en grundig planlægning og designstrategi samt en forståelse for de forskellige teknologier og metoder, der understøtter fleksible layout og brugervenlighed.</p>
+          </div>
+        </div>
+  </div>
+  <br>
+  <footer class="site-footer">
+    <div class="footer-top">
+        <p>Lavet af Jonas Schøn Henriksen</p>
+    </div>
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>Gå til side</h3>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="CRAP.html">CRAP</a></li>
+                <li><a href="Gestalt.html">Gestalt</a></li>
+                <li><a href="Pour.html">Pour</a></li>
+                <li><a href="RWD.html">RWD</a></li>
+                <li><a href="virsul.html">Visuel Style</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Kontakt</h3>
+            <ul>    <!-- kontaktinformationer -->
+                <li><a href="tel:21328035">Telefon</a>
+                <li><a href="mailto:jonasschonhenriksen@icloud.com">Mail</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

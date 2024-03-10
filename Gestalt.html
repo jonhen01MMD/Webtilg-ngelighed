@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/6834b5a799.js" crossorigin="anonymous" defer ></script>
+    <script src="JS/scripts.js"></script>
+    <title>Webtilgængelighed</title>
+</head>
+<body class="gestalt-page">
+    <header class="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="PCTopNavigation">
+            <a href="index.html">Forside</a>
+            <a href="#" onclick="showWorldGoals()">Webtilgængelighed</a>
+            <a href="virsul.html">Visuel Style</a>
+        </nav>
+        <div id="WebTools">
+            <a href="CRAP.html">CRAP</a>
+            <a href="Gestalt.html" class="active">Gestalt</a>
+            <a href="Pour.html">Pour</a>
+            <a href="RWD.html">RWD</a>
+        </div>
+        <button id="theme-toggle"><i class="fa-solid fa-sun" style="color: #ffffff;"></i></button>
+        <div class="burger-menu">&#9776;</div>
+    </header>
+    <div>
+        <div class="billed-container">
+            <img src="img/GestaltBG.jpg" alt="Baggrundsbillede" class="baggrunds-billede">
+            <img src="img/Gestalt.png" alt="Text: Gestalt" class="forgrunds-billede">
+        </div>        
+    </div>
+    <div class="content-container"> <!-- Hvad er Gestalt? -->
+          <div class="text-container">
+            <h2>Hvad er Gestalt?</h2>
+            <div>
+                <button class="button" onclick="decreaseFontSize()">-</button>
+                <button class="button" onclick="increaseFontSize()">+</button>
+                <button class="button read-aloud" data-id="text-to-read-1" id="toggle-button-1">Læs op</button>
+                <p class="brødtekst" id="text-to-read-1">Gestalt er en samling af teorier om visuel perception. Disse principper forklarer, hvordan mennesker naturligt opfatter visuelle elementer som organiserede mønstre og helheder snarere end som mange separate dele. Gestalt er det tyske ord for "form" eller "helhed", og Gestalt-principperne beskriver, hvordan vores hjerne grupperer individuelle objekter til mønstre eller helheder inden for komplekse visuelle arrangementer. Nedenunder her kan du læse kort om de mest fremtrædende Gestalt-principper.</p>
+                <p class="brødtekst">Billederne på denne side er fra levendestreg.dk <b> "https://levendestreg.dk/gestalt-principper/"</b></p>
+            </div>
+          </div>
+    </div>
+    <div class="content-container"> <!-- Nærhed -->
+        <div class="text-container">
+          <h2>Nærhed (Proximity)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-2" id="toggle-button-2">Læs op</button>
+              <p class="brødtekst" id="text-to-read-2">Dette princip siger, at elementer, som er tæt placeret på hinanden, vil blive opfattet som en samlet gruppe snarere end som adskilte, isolerede enheder. Denne opfattelse gør det nemmere at organisere information. I design bruges nærhedsprincippet til at skabe relationer mellem elementer. For eksempel, ved at placere beslægtede oplysninger tæt på hinanden, kan designere skabe en klar forståelse af, at disse elementer er forbundne og hører sammen.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/proximity.jpg" alt="billede af nogle figur som viser hvad Nærhed menes">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Lighed -->
+        <div class="text-container">
+          <h2>Lighed (Similarity)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-3" id="toggle-button-3">Læs op</button>
+              <p class="brødtekst" id="text-to-read-3">Lighed indebærer, at objekter, som deler visuelle karakteristika som farve, form, størrelse eller tekstur, vil blive set som del af samme gruppe. Dette princip er særligt nyttigt i design for at organisere og kategorisere information. For eksempel, brug af en ensartet farvekodning kan hjælpe brugere med hurtigt at identificere relateret indhold eller funktioner på en hjemmeside.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/Similarity.jpg" alt="billede af nogle figur som viser hvad Similarity menes">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Kontinuitet -->
+        <div class="text-container">
+          <h2>Kontinuitet (Continuity)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-4" id="toggle-button-4">Læs op</button>
+              <p class="brødtekst" id="text-to-read-4">Kontinuitet princippet handler om vores tendens til at se elementer arrangeret på en linje eller kurve som værende mere relaterede, end de er uordnede eller ikke-lineære. Dette princip er grundlæggende i vejledning af seerens øje gennem et design. For eksempel, i en tekst med flere kolonner, vil linjerne guide læserens øje jævnt fra venstre til højre.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/Continuity.jpg" alt="billede af nogle figur som viser hvad Continuity menes">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Lukning -->
+        <div class="text-container">
+          <h2>Lukning (Closure)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-5" id="toggle-button-5">Læs op</button>
+              <p class="brødtekst" id="text-to-read-5">Vores hjerne har en stærk tendens til at se ufuldstændige figurer som komplette. Når vi ser et billede, der ikke er fuldt lukket eller et objekt, der mangler dele, vil vores hjerne automatisk udfylde hullerne for at skabe en helhed. I logo-design bruges lukningsprincippet ofte til at skabe interessante visuelle effekter, hvor seeren "fuldfører" billedet.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/Closure.jpg" alt="billede af nogle figur som viser hvad Closure menes">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Figur og baggrund -->
+        <div class="text-container">
+          <h2>Figur og baggrund (Figure-Ground)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-6" id="toggle-button-6">Læs op</button>
+              <p class="brødtekst" id="text-to-read-6"> Dette princip beskriver, hvordan vi automatisk adskiller elementer i forgrunden (figuren) fra deres baggrund (ground). Denne opdeling er grundlæggende for vores evne til at fokusere på specifikke elementer i et visuelt felt. I grafisk design bruges dette til at skabe kontrast og gøre bestemte elementer mere fremtrædende.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img src="img/Figure-Ground.jpg" alt="billede af nogle figur som viser hvad Figure-Ground menes">
+        </div>
+    </div>
+    <div class="content-container"> <!-- Symmetri og orden -->
+        <div class="text-container">
+          <h2>Symmetri og orden (Symmetry and Order)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-7" id="toggle-button-7">Læs op</button>
+              <p class="brødtekst" id="text-to-read-7">Symmetriske objekter opfattes naturligt som harmoniske og balancerede, hvilket gør dette princip vigtigt for at skabe et æstetisk tiltalende design. Den menneskelige hjerne er tilbøjelig til at opfatte symmetriske objekter som en del af samme gruppe, hvilket skaber en følelse af orden og kohærens.</p>
+          </div>
+        </div>
+    </div>
+    <div class="content-container"> <!-- Fælles skæbne  -->
+        <div class="text-container">
+          <h2>Fælles skæbne (Common Fate)</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-8" id="toggle-button-8">Læs op</button>
+              <p class="brødtekst" id="text-to-read-8">Objekter, der bevæger sig i samme retning, opfattes som værende mere relaterede end dem, der bevæger sig i forskellige retninger eller er stationære. Dette princip anvendes ofte i animation og brugergrænseflade design. For eksempel, når flere elementer på en skærm bevæger sig sammen, signalerer det til brugeren, at de er forbundet og deler en fælles funktion eller formål.</p>
+          </div>
+        </div>
+    </div>
+    <div class="content-container"> <!-- Samlet set  -->
+        <div class="text-container">
+          <h2>Samlet set</h2>
+          <div>
+              <button class="button" onclick="decreaseFontSize()">-</button>
+              <button class="button" onclick="increaseFontSize()">+</button>
+              <button class="button read-aloud" data-id="text-to-read-9" id="toggle-button-9">Læs op</button>
+              <p class="brødtekst" id="text-to-read-9">Samlet set hjælper Gestalt-principperne designere med at skabe mere intuitive og effektive visuelle præsentationer, ved at udnytte vores naturlige tendens til at organisere visuel information og finde mønstre og helheder.</p>
+          </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <p>Lavet af Jonas Schøn Henriksen</p>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Gå til side</h3>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="CRAP.html">CRAP</a></li>
+                    <li><a href="Gestalt.html">Gestalt</a></li>
+                    <li><a href="Pour.html">Pour</a></li>
+                    <li><a href="RWD.html">RWD</a></li>
+                    <li><a href="virsul.html">Visuel Style</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Kontakt</h3>
+                <ul>    <!-- kontaktinformationer -->
+                    <li><a href="tel:21328035">Telefon</a>
+                    <li><a href="mailto:jonasschonhenriksen@icloud.com">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/6834b5a799.js" crossorigin="anonymous" defer ></script>
+    <script src="JS/scripts.js"></script>
+    <title>Webtilgængelighed</title>
+</head>
+<body class="pour-page">
+    <header class="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="PCTopNavigation">
+            <a href="index.html">Forside</a>
+            <a href="#" onclick="showWorldGoals()">Webtilgængelighed</a>
+            <a href="virsul.html">Visuel Style</a>
+        </nav>
+        <div id="WebTools">
+            <a href="CRAP.html">CRAP</a>
+            <a href="Gestalt.html">Gestalt</a>
+            <a href="Pour.html" class="active">Pour</a>
+            <a href="RWD.html">RWD</a>
+        </div>
+        <button id="theme-toggle"><i class="fa-solid fa-sun" style="color: #ffffff;"></i></button>
+        <div class="burger-menu">&#9776;</div>
+    </header>
+    <div>
+        <div class="billed-container">
+            <img src="img/PourBG.png" alt="Baggrundsbillede" class="baggrunds-billede">
+            <img src="img/Pour.png" alt="Text: Pour" class="forgrunds-billede">
+        </div>        
+    </div>
+    <div class="content-container"> <!-- Hvad er Pour? -->
+          <div class="text-container">
+            <h2>Hvad er Pour?</h2>
+            <div>
+                <button class="button" onclick="decreaseFontSize()">-</button>
+                <button class="button" onclick="increaseFontSize()">+</button>
+                <button class="button read-aloud" data-id="text-to-read-1" id="toggle-button-1">Læs op</button>
+                <p class="brødtekst" id="text-to-read-1">Pour omhandler tilgængelighedsaspekter af webdesign, hvor målet er at skabe webindhold og applikationer, der er tilgængelige og brugbare for alle mennesker, uanset deres evner eller handicap.</p>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="img/mainfoto.jpg" alt="et billede af en labtop på et bord">
+          </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <p>Lavet af Jonas Schøn Henriksen</p>
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Gå til side</h3>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="CRAP.html">CRAP</a></li>
+                    <li><a href="Gestalt.html">Gestalt</a></li>
+                    <li><a href="Pour.html">Pour</a></li>
+                    <li><a href="RWD.html">RWD</a></li>
+                    <li><a href="virsul.html">Visuel Style</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Kontakt</h3>
+                <ul>    <!-- kontaktinformationer -->
+                    <li><a href="tel:21328035">Telefon</a>
+                    <li><a href="mailto:jonasschonhenriksen@icloud.com">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
